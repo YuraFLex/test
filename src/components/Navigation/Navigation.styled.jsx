@@ -15,9 +15,13 @@ export const NavList = styled.ul`
 `;
 
 export const Link = styled(NavLink)`
+  display: inline-flex;
   text-decoration: none;
   color: inherit;
-
+  padding: 16px 32px;
+  color: #fff;
+  font-weight: 600;
+  background-color: #3a6ef6;
   &.active {
     color: red;
   }

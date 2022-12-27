@@ -9,7 +9,7 @@ import { BirdPage } from 'pages/BirdPage/BirdPage';
 import { HorsePage } from 'pages/HorsePage/HorsePage';
 
 import { Layout } from './Layout/Layout';
-import { LivestockPage } from 'pages/LivestockPage/LivestockPage';
+import { AquamarinePage } from 'pages/AquamarinePage/AquamarinePage';
 import { ReptilePage } from 'pages/ReptilePage/ReptilePage';
 import { KormPage } from 'pages/DogPage/KormPage/KormPage';
 import { Korm } from 'pages/DogPage/Korm/Korm';
@@ -30,7 +30,7 @@ export const App = () => {
           <Route path="/hamster" element={<HamsterPage />} />
           <Route path="/bird" element={<BirdPage />} />
           <Route path="/horse" element={<HorsePage />} />
-          <Route path="/livestock" element={<LivestockPage />} />
+          <Route path="/aquamarine" element={<AquamarinePage />} />
           <Route path="/reptile" element={<ReptilePage />} />
         </Route>
       </Routes>

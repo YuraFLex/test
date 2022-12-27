@@ -23,7 +23,7 @@ export const Navigation = () => {
             <Link to="/horse">Лошади</Link>
           </li>
           <li>
-            <Link to="/livestock">Сельхоз Животные</Link>
+            <Link to="/aquamarine">Аквамаристика</Link>
           </li>
           <li>
             <Link to="/reptile">Рептилии</Link>

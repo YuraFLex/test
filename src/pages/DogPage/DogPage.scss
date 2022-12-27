@@ -21,13 +21,28 @@ li {
     // flex-direction: column;
     // text-align: center;
     // width: calc((100% - 30px) / 4);
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+    
+    transition: all 250ms linear;
+   &:hover {
+    box-shadow: 2px 9px 49px 0px rgba(0,0,0,0.75);
+   }
+}
+
+p {
+    display: block;
+    padding: 5px 10px;
 }
 
 .box {
     width: 285px;
     height: 285px;
     background-color: #777;
+    overflow: hidden;
 }
+
 
 .nav-link {
     text-decoration: none;

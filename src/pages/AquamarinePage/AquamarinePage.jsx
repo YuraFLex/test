@@ -1,18 +1,14 @@
 import { Link } from 'react-router-dom';
-import { CategorieCat } from 'data/categoriesMenu';
+import { CategorieAquamarine } from 'data/categoriesMenu';
 
-import './CatPage.scss';
-
-export const CatPage = () => {
+export const AquamarinePage = () => {
   return (
     <div className="container">
       <ul className="box-list">
-        {CategorieCat.map(({ id, name, img }) => (
+        {CategorieAquamarine.map(({ id, name }) => (
           <li key={id}>
             <Link to={`${id}`} className="nav-link">
-              <div className="box">
-                <img src={img} alt={name} />
-              </div>
+              <div className="box"></div>
               <p>{name}</p>
             </Link>
           </li>

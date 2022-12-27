@@ -9,10 +9,12 @@ export const DogPage = () => {
   return (
     <div className="container">
       <ul className="box-list">
-        {CategorieDog.map(({ id, name }) => (
+        {CategorieDog.map(({ id, name, img }) => (
           <li key={id}>
             <Link to={`dog/${id}`} className="nav-link" state={location.state}>
-              <div className="box"></div>
+              <div className="box">
+                <img src={img} alt={name} />
+              </div>
               <p>{name}</p>
             </Link>
           </li>

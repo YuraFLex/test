@@ -1,0 +1,35 @@
+.container {
+    max-width: 1200px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.box-list {
+    margin-top: 50px;
+    list-style: none;
+    padding: 0;
+    // display: flex;
+    // flex-wrap: wrap;
+    gap: 20px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr)
+}
+
+li {
+    cursor: pointer;
+    // display: flex;
+    // flex-direction: column;
+    // text-align: center;
+    // width: calc((100% - 30px) / 4);
+}
+
+.box {
+    width: 285px;
+    height: 285px;
+    background-color: #777;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: inherit;
+}
