@@ -1,3 +1,9 @@
+import './KormPage.scss';
+
 export const KormPage = () => {
-  return <div>КОРМ!!!</div>;
+  return (
+    <div className="container">
+      <h1>КОРМ!!!</h1>
+    </div>
+  );
 };

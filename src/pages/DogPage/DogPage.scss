@@ -7,9 +7,10 @@
 .box-list {
     margin-top: 50px;
     list-style: none;
+    padding: 0;
     // display: flex;
     // flex-wrap: wrap;
-    gap: 10px;
+    gap: 20px;
     display: grid;
     grid-template-columns: repeat(4, 1fr)
 }
@@ -23,7 +24,12 @@ li {
 }
 
 .box {
-    width: 250px;
-    height: 250px;
+    width: 285px;
+    height: 285px;
     background-color: #777;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: inherit;
 }

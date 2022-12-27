@@ -1,41 +1,22 @@
-import { Link } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
+import { CategorieDog } from 'data/categoriesMenu';
 
 import './DogPage.scss';
 
 export const DogPage = () => {
+  const location = useLocation();
+  //   const navigation = useNavigate();
   return (
     <div className="container">
       <ul className="box-list">
-        <li>
-          <Link to="/dog/korm">
-            <div className="box"></div>
-            <p>Корма</p>
-          </Link>
-        </li>
-        <li>
-          <div className="box"></div>
-          <p>Корма</p>
-        </li>
-        <li>
-          <div className="box"></div>
-          <p>Корма</p>
-        </li>
-        <li>
-          <div className="box"></div>
-          <p>Корма</p>
-        </li>
-        <li>
-          <div className="box"></div>
-          <p>Корма</p>
-        </li>
-        <li>
-          <div className="box"></div>
-          <p>Корма</p>
-        </li>
-        <li>
-          <div className="box"></div>
-          <p>Корма</p>
-        </li>
+        {CategorieDog.map(({ id, name }) => (
+          <li key={id}>
+            <Link to={`dog/${id}`} className="nav-link" state={location.state}>
+              <div className="box"></div>
+              <p>{name}</p>
+            </Link>
+          </li>
+        ))}
       </ul>
     </div>
   );
