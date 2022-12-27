@@ -20,9 +20,9 @@ export const HeroSlider = () => {
     setCurrentSlide(currentSlide === 0 ? slideLength - 1 : currentSlide - 1);
   };
 
-  // function auto() {
+  // const auto = () => {
   //   slideInterval = setInterval(nextSlide, intervalTime);
-  // }
+  // };
 
   useEffect(() => {
     setCurrentSlide(0);

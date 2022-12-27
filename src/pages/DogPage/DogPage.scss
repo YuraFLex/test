@@ -1,0 +1,29 @@
+.container {
+    max-width: 1200px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.box-list {
+    margin-top: 50px;
+    list-style: none;
+    // display: flex;
+    // flex-wrap: wrap;
+    gap: 10px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr)
+}
+
+li {
+    cursor: pointer;
+    // display: flex;
+    // flex-direction: column;
+    // text-align: center;
+    // width: calc((100% - 30px) / 4);
+}
+
+.box {
+    width: 250px;
+    height: 250px;
+    background-color: #777;
+}

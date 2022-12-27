@@ -1,16 +1,35 @@
-import { NavLink } from 'react-router-dom';
+import { Wrapper, NavList, Link } from './Navigation.styled';
 
 export const Navigation = () => {
   return (
-    <nav>
-      <ul>
-        <li>
-          <NavLink to="/home">Home</NavLink>
-        </li>
-        <li>
-          <NavLink to="/about">About</NavLink>
-        </li>
-      </ul>
-    </nav>
+    <Wrapper>
+      <nav>
+        <NavList>
+          <li>
+            <Link to="/" end>
+              Собаки
+            </Link>
+          </li>
+          <li>
+            <Link to="/cat">Кошки</Link>
+          </li>
+          <li>
+            <Link to="/hamster">Грызуны</Link>
+          </li>
+          <li>
+            <Link to="/bird">Птицы</Link>
+          </li>
+          <li>
+            <Link to="/horse">Лошади</Link>
+          </li>
+          <li>
+            <Link to="/livestock">Сельхоз Животные</Link>
+          </li>
+          <li>
+            <Link to="/reptile">Рептилии</Link>
+          </li>
+        </NavList>
+      </nav>
+    </Wrapper>
   );
 };
