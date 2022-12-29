@@ -14,11 +14,13 @@ import { ReptilePage } from 'pages/ReptilePage/ReptilePage';
 import { KormPage } from 'pages/DogPage/KormPage/KormPage';
 import { Korm } from 'pages/DogPage/Korm/Korm';
 import { FeedPage } from 'pages/DogPage/Feed/FeedPage';
+import { Sale } from './Sale/Sale';
 
 export const App = () => {
   return (
     <>
       <HeroSlider />
+
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<DogPage />} />
@@ -34,6 +36,8 @@ export const App = () => {
           <Route path="/reptile" element={<ReptilePage />} />
         </Route>
       </Routes>
+
+      <Sale />
     </>
   );
 };

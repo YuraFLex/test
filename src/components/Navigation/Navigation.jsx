@@ -1,8 +1,9 @@
-import { Wrapper, NavList, Link } from './Navigation.styled';
+import { Wrapper, NavList, Link, Title } from './Navigation.styled';
 
 export const Navigation = () => {
   return (
     <Wrapper>
+      <Title>Категория товаров</Title>
       <nav>
         <NavList>
           <li>

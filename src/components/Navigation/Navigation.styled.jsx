@@ -7,6 +7,15 @@ export const Wrapper = styled.div`
   margin: 0 auto;
 `;
 
+export const Title = styled.h1`
+  font-size: 45px;
+  line-height: 1.2;
+  font-weight: 700;
+
+  text-align: center;
+  margin-bottom: 50px;
+`;
+
 export const NavList = styled.ul`
   display: flex;
   justify-content: space-between;
@@ -22,7 +31,9 @@ export const Link = styled(NavLink)`
   color: #fff;
   font-weight: 600;
   background-color: #3a6ef6;
+
   &.active {
-    color: red;
+    color: #3a6ef6;
+    background-color: #fff;
   }
 `;
