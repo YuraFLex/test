@@ -1,9 +1,35 @@
+import { NavLink } from 'react-router-dom';
 import './KormPage.scss';
 
 export const KormPage = () => {
   return (
     <div className="container">
-      <h1>КОРМ!!!</h1>
+      <ul>
+        <li>
+          <NavLink>1</NavLink>
+        </li>
+        <li>
+          <NavLink>1</NavLink>
+        </li>
+        <li>
+          <NavLink>1</NavLink>
+        </li>
+        <li>
+          <NavLink>1</NavLink>
+        </li>
+        <li>
+          <NavLink>1</NavLink>
+        </li>
+        <li>
+          <NavLink>1</NavLink>
+        </li>
+        <li>
+          <NavLink>1</NavLink>
+        </li>
+        <li>
+          <NavLink>1</NavLink>
+        </li>
+      </ul>
     </div>
   );
 };
