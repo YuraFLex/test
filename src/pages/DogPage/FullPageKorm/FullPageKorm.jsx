@@ -1,8 +1,13 @@
+import { Link } from 'react-router-dom';
+
 export const FullPageKorm = () => {
   return (
-    <>
-      <h2>Вы выбрали свой корм</h2>
-      <p>Тут вся подробная ситуация л корме который вы выбрали</p>
-    </>
+    <div className="container">
+      <Link to="/dog/feed">
+        <h2>Назад</h2>
+      </Link>
+      <h2>Юзера</h2>
+      <p>Комр Юзера бла бяла яба ляаб яла ябал яаб ляа бяал яа яла </p>
+    </div>
   );
 };

@@ -7,10 +7,12 @@ export const ReptilePage = () => {
   return (
     <div className="container">
       <ul className="box-list">
-        {CategorieReptile.map(({ id, name }) => (
+        {CategorieReptile.map(({ id, name, img }) => (
           <li key={id}>
             <Link to={`${id}`} className="nav-link">
-              <div className="box"></div>
+              <div>
+                <img src={img} alt={name} />
+              </div>
               <p>{name}</p>
             </Link>
           </li>

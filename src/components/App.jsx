@@ -16,7 +16,7 @@ import { Korm } from 'pages/DogPage/Korm/Korm';
 // import { FeedPage } from 'pages/DogPage/Feed/FeedPage';
 import { Sale } from './Sale/Sale';
 import { FeedPage } from 'pages/DogPage/Feed/FeedPage';
-// import { FullPageKorm } from 'pages/DogPage/FullPageKorm/FullPageKorm';
+import { FullPageKorm } from 'pages/DogPage/FullPageKorm/FullPageKorm';
 
 export const App = () => {
   return (
@@ -29,7 +29,7 @@ export const App = () => {
 
           <Route path="dog/feed" element={<Korm />} />
           <Route path="dog/corm" element={<KormPage />} />
-          {/* <Route path="dog/feed/:id" element={<FullPageKorm />} /> */}
+          <Route path="dog/feed/:id" element={<FullPageKorm />} />
           <Route path="dog/goodies" element={<FeedPage />} />
           <Route path="../../bird" element={<BirdPage />} />
 

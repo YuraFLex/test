@@ -1,3 +1,5 @@
+import defaultImg from '../img/noimage.png';
+
 export const CategorieDog = [
   {
     id: 'feed',
@@ -184,19 +186,23 @@ export const CategorieHorse = [
   {
     id: 'feed',
     name: 'Корма',
+    img: `${defaultImg}`,
   },
   {
     id: 'goodies',
     name: 'Лакомства',
+    img: `${defaultImg}`,
   },
 
   {
     id: 'care',
     name: 'Уход',
+    img: `${defaultImg}`,
   },
   {
     id: 'hygiene',
     name: 'Гигиена',
+    img: `${defaultImg}`,
   },
 ];
 
@@ -204,42 +210,52 @@ export const CategorieAquamarine = [
   {
     id: 'feed',
     name: 'Корма',
+    img: `${defaultImg}`,
   },
   {
     id: 'goodies',
     name: 'Лакомства',
+    img: `${defaultImg}`,
   },
   {
     id: 'filters',
     name: 'Фильтры',
+    img: `${defaultImg}`,
   },
   {
     id: 'heating',
     name: 'Обогрев',
+    img: `${defaultImg}`,
   },
   {
     id: 'care',
     name: 'Уход',
+    img: `${defaultImg}`,
   },
   {
     id: 'hygiene',
     name: 'Гигиена',
+    img: `${defaultImg}`,
   },
   {
     id: 'veterinary',
     name: 'Ветиренария',
+    img: `${defaultImg}`,
   },
   {
     id: 'travel',
     name: 'Путишествия',
+    img: `${defaultImg}`,
   },
   {
     id: 'aquariums',
     name: 'Аквариумы',
+    img: `${defaultImg}`,
   },
   {
     id: 'aquarium_plants',
     name: 'Аквариумные растения',
+    img: `${defaultImg}`,
   },
 ];
 
@@ -247,42 +263,52 @@ export const CategorieReptile = [
   {
     id: 'feed',
     name: 'Корма',
+    img: `${defaultImg}`,
   },
   {
     id: 'goodies',
     name: 'Лакомства',
+    img: `${defaultImg}`,
   },
 
   {
     id: 'heating',
     name: 'Обогрев',
+    img: `${defaultImg}`,
   },
   {
     id: 'care',
     name: 'Уход',
+    img: `${defaultImg}`,
   },
   {
     id: 'hygiene',
     name: 'Гигиена',
+    img: `${defaultImg}`,
   },
   {
     id: 'veterinary',
     name: 'Ветиренария',
+    img: `${defaultImg}`,
   },
   {
     id: 'travel',
     name: 'Путишествия',
+    img: `${defaultImg}`,
   },
   {
     id: 'cells',
     name: 'Клетки',
+    img: `${defaultImg}`,
   },
   {
     id: 'terrarium',
     name: 'Терариум',
+    img: `${defaultImg}`,
   },
   {
     id: 'decor',
     name: 'Декор',
+    img: `${defaultImg}`,
   },
 ];

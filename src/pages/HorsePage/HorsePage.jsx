@@ -5,10 +5,12 @@ export const HorsePage = () => {
   return (
     <div className="container">
       <ul className="box-list">
-        {CategorieHorse.map(({ id, name }) => (
+        {CategorieHorse.map(({ id, name, img }) => (
           <li key={id}>
             <Link to={`${id}`} className="nav-link">
-              <div className="box"></div>
+              <div>
+                <img src={img} alt={name} />
+              </div>
               <p>{name}</p>
             </Link>
           </li>

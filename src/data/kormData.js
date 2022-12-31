@@ -4,20 +4,20 @@ export const KormData = [
   {
     id: '0',
     img: `${defaultImage}`,
-    name: 'name 1',
-    desr: 'kdsfnkasdbf aksbd jsadbg jsdbg jsabg sjadkbg sjkdbg sdjbg sadjbg skjg ksjdbg ksjg sajg sajkg  kjgasjdbg jasdbg ajksg jsg ',
+    name: 'Юзера',
+    desr: 'Корм Юзера балабалаблвбалб лаб лаб лаб лаб лбла бла блаблаблаблаблабла блаблаблаблабла блаблаблаблаблаблабла блабла блаблаблаблаблаблабла блаблабла блабла блаблаблаблаблабла блаблаблабла балабалаблвбалб ',
   },
   {
     id: '1',
     img: `${defaultImage}`,
-    name: 'name 2',
-    desr: 'kdsfnkasdbf aksbd jsadbg jsdbg jsabg sjadkbg sjkdbg sdjbg sadjbg skjg ksjdbg ksjg sajg sajkg  kjgasjdbg jasdbg ajksg jsg ',
+    name: 'Фест Чойс',
+    desr: 'Корм Фуст Чойс балабалаблвбалб лаб лаб лаб лаб лбла бла блаблаблаблаблабла блаблаблаблабла блаблаблаблаблаблабла блабла блаблаблаблаблаблабла блаблабла блабла блаблаблаблаблабла блаблаблабла балабалаблвбалб ',
   },
   {
     id: '2',
     img: `${defaultImage}`,
-    name: 'name 3',
-    desr: 'kdsfnkasdbf aksbd jsadbg jsdbg jsabg sjadkbg sjkdbg sdjbg sadjbg skjg ksjdbg ksjg sajg sajkg  kjgasjdbg jasdbg ajksg jsg ',
+    name: 'Хилс',
+    desr: 'Корм Юзера балабалаблвбалб лаб лаб лаб лаб лбла бла блаблаблаблаблабла блаблаблаблабла блаблаблаблаблаблабла блабла блаблаблаблаблаблабла блаблабла блабла блаблаблаблаблабла блаблаблабла балабалаблвбалб',
   },
   {
     id: '3',
